@@ -9,7 +9,7 @@ public class FabricaConexao {
 			try {
 				String url = "jdbc:mysql://localhost/curso?verifyServerCertificate=false&useSSL=true";
 				String usuario = "root";
-				String senha = "jean5698";
+				String senha = "123321";
 				
 				return DriverManager.getConnection(url, usuario, senha);
 			} catch (Exception e) {
